@@ -13,89 +13,89 @@ const routes = [
   },
   {
     path: '/onboarding',
-    name: 'Onboarding',
-    component: () => import('@/views/onboarding/OnboardingFlow.vue'),
+    name: 'onboarding',
+    component: () => import('@/views/onboarding/onboardingflow.vue'),
     meta: { hideNav: true },
   },
  
   
   {
     path: '/login',
-    name: 'Login',
-    component: () => import('@/views/LoginView.vue'),
+    name: 'login',
+    component: () => import('@/views/loginview.vue'),
     meta: { hideNav: true },
   },
   {
     path: '/home',
-    name: 'Home',
-    component: () => import('@/views/HomeView.vue'),
+    name: 'home',
+    component: () => import('@/views/homeview.vue'),
   },
   {
     path: '/test',
-    name: 'TestSelector',
-    component: () => import('@/views/test/TestSelector.vue'),
+    name: 'testselector',
+    component: () => import('@/views/test/testselector.vue'),
   },
   {
     path: '/test/session',
-    name: 'TestSession',
-    component: () => import('@/views/test/TestSession.vue'),
+    name: 'testsession',
+    component: () => import('@/views/test/testsession.vue'),
     meta: { hideNav: true },
   },
   {
     path: '/test/results',
-    name: 'TestResults',
-    component: () => import('@/views/test/TestResults.vue'),
+    name: 'testresults',
+    component: () => import('@/views/test/testresults.vue'),
     meta: { hideNav: true },
   },
   {
     path: '/test/review',
-    name: 'ReviewSession',
-    component: () => import('@/views/test/ReviewSession.vue'),
+    name: 'reviewsession',
+    component: () => import('@/views/test/reviewsession.vue'),
     meta: { hideNav: true },
   },
   {
     path: '/stats',
-    name: 'Stats',
-    component: () => import('@/views/stats/StatsView.vue'),
+    name: 'stats',
+    component: () => import('@/views/stats/statsview.vue'),
   },
   {
     path: '/streak-lost',
-    name: 'StreakLost',
-    component: () => import('@/views/StreakLost.vue'),
+    name: 'streaklost',
+    component: () => import('@/views/streaklost.vue'),
   },
  
   
   { path: '/admin', redirect: '/admin/login' },
   {
     path: '/admin/login',
-    name: 'AdminLogin',
-    component: () => import('@/views/admin/AdminLogin.vue'),
+    name: 'adminlogin',
+    component: () => import('@/views/admin/adminlogin.vue'),
     meta: { hideNav: true },
   },
   {
     path: '/admin/dashboard',
-    name: 'AdminDashboard',
-    component: () => import('@/views/admin/AdminDashboard.vue'),
+    name: 'admindashboard',
+    component: () => import('@/views/admin/admindashboard.vue'),
     meta: { hideNav: true, requiresAdmin: true },
   },
   {
     path: '/admin/users',
-    name: 'AdminUsers',
-    component: () => import('@/views/admin/AdminUsers.vue'),
+    name: 'adminusers',
+    component: () => import('@/views/admin/adminusers.vue'),
     meta: { hideNav: true, requiresAdmin: true },
   },
   {
     path: '/admin/questions',
-    name: 'AdminQuestions',
-    component: () => import('@/views/admin/AdminQuestions.vue'),
+    name: 'adminquestions',
+    component: () => import('@/views/admin/adminquestions.vue'),
     meta: { hideNav: true, requiresAdmin: true },
   },
 
   
   {
     path: '/:pathMatch(.*)*',
-    name: 'NotFound',
-    component: () => import('@/views/NotFoundView.vue'),
+    name: 'notfound',
+    component: () => import('@/views/notfoundview.vue'),
     meta: { hideNav: true },
   },
 ]
@@ -116,7 +116,7 @@ router.beforeEach((to) => {
 
   
   const appPublicRoutes = ['/login', '/onboarding', '/']
-  if (!appPublicRoutes.includes(to.path) && !to.path.startsWith('/admin') && to.name !== 'NotFound') {
+  if (!appPublicRoutes.includes(to.path) && !to.path.startsWith('/admin') && to.name !== 'notfound') {
     
     if (!localStorage.getItem('user_authenticated') && window.innerWidth < 1024) {
       return { path: '/login' }

@@ -34,13 +34,13 @@
 
 <script>
 import { markRaw } from 'vue'
-import { useApi } from '@/composables/useApi.js'
-import Step01Welcome from './steps/Step01Welcome.vue'
-import Step02Name from './steps/Step02Name.vue'
-import Step03Email from './steps/Step03Email.vue'
-import Step04Password from './steps/Step04Password.vue'
-import Step05Notifications from './steps/Step05Notifications.vue'
-import Step06Done from './steps/Step06Done.vue'
+import { useApi } from '@/composables/useapi.js'
+import Step01Welcome from './steps/step01welcome.vue'
+import Step02Name from './steps/step02name.vue'
+import Step03Email from './steps/step03email.vue'
+import Step04Password from './steps/step04password.vue'
+import Step05Notifications from './steps/step05notifications.vue'
+import Step06Done from './steps/step06done.vue'
 
 const steps = [
   markRaw(Step01Welcome),
@@ -52,7 +52,7 @@ const steps = [
 ]
 
 export default {
-  name: 'OnboardingFlow',
+  name: 'onboardingflow',
   setup() {
     return { api: useApi() }
   },

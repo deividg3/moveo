@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'NotFoundView',
+  name: 'notfoundview',
 }
 </script>
 

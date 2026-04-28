@@ -60,7 +60,7 @@
 import allQuestions from '@/data/questions.json'
  
 export default {
-  name: 'TestResults',
+  name: 'testresults',
   data() {
     const score   = Number(this.$route.query.score)
     const total   = Number(this.$route.query.total)

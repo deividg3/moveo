@@ -71,7 +71,7 @@
  
 <script>
 export default {
-  name: 'AdminDashboard',
+  name: 'admindashboard',
   data() {
     return {
       stats: null,

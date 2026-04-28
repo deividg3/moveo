@@ -66,14 +66,14 @@
 </template>
  
 <script>
-import { useProgress } from '@/composables/useProgress.js'
-import { useSounds } from '@/composables/useSounds.js'
+import { useProgress } from '@/composables/useprogress.js'
+import { useSounds } from '@/composables/usesounds.js'
 import allQuestions from '@/data/questions.json'
  
 const TIMER = 30
  
 export default {
-  name: 'TestSession',
+  name: 'testsession',
   setup() {
     return { progress: useProgress(), sounds: useSounds() }
   },

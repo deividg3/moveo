@@ -60,7 +60,7 @@
 import allQuestions from '@/data/questions.json'
  
 export default {
-  name: 'AdminQuestions',
+  name: 'adminquestions',
   data() {
     const topicMap = {}
     allQuestions.forEach(q => { topicMap[q.topic] = q.topic_label })

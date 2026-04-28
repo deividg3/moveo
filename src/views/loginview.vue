@@ -96,10 +96,10 @@
 </template>
 
 <script>
-import { useApi } from '@/composables/useApi.js'
+import { useApi } from '@/composables/useapi.js'
 
 export default {
-  name: 'LoginView',
+  name: 'loginview',
   setup() {
     return { api: useApi() }
   },

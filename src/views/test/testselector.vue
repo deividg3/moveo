@@ -64,11 +64,11 @@
 </template>
  
 <script>
-import { useProgress } from '@/composables/useProgress.js'
+import { useProgress } from '@/composables/useprogress.js'
 import questions from '@/data/questions.json'
  
 export default {
-  name: 'TestSelector',
+  name: 'testselector',
   setup() {
     return { progress: useProgress() }
   },

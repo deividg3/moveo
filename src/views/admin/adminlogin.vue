@@ -47,7 +47,7 @@
  
 <script>
 export default {
-  name: 'AdminLogin',
+  name: 'adminlogin',
   data() {
     return {
       form:       { username: '', password: '' },

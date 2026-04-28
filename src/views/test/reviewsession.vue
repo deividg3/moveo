@@ -61,11 +61,11 @@
 </template>
  
 <script>
-import { useProgress } from '@/composables/useProgress.js'
+import { useProgress } from '@/composables/useprogress.js'
 import allQuestions from '@/data/questions.json'
  
 export default {
-  name: 'ReviewSession',
+  name: 'reviewsession',
   setup() { return { progress: useProgress() } },
   data() {
     const questions = this.progress.getWrongQuestions(allQuestions, 10)

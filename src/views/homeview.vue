@@ -159,7 +159,7 @@
 </template>
  
 <script>
-import { useProgress } from '@/composables/useProgress.js'
+import { useProgress } from '@/composables/useprogress.js'
 import questions from '@/data/questions.json'
  
 
@@ -173,7 +173,7 @@ function capitalizeName(name) {
 }
 
 export default {
-  name: 'HomeView',
+  name: 'homeview',
   setup() {
     const progress = useProgress()
     return { progress }

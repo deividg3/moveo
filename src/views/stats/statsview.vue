@@ -89,11 +89,11 @@
 </template>
  
 <script>
-import { useProgress } from '@/composables/useProgress.js'
+import { useProgress } from '@/composables/useprogress.js'
 import allQuestions from '@/data/questions.json'
  
 export default {
-  name: 'StatsView',
+  name: 'statsview',
   setup() { return { progress: useProgress() } },
   data() {
     const p = useProgress()

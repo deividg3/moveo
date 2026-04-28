@@ -64,7 +64,7 @@
 const AVATARS = ['🐧','🦊','🐸','🦋','🐼','🦁','🐙','🦄','🐯','🤖','👾','🦅']
  
 export default {
-  name: 'AdminUsers',
+  name: 'adminusers',
   data() {
     return { users: [], search: '' }
   },
