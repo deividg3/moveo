@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "topic": "señales",
+    "topic_label": "Señales de tráfico",
+    "question": "¿Qué forma tiene una señal de STOP?",
+    "options": [
+      "Triangular",
+      "Circular",
+      "Octogonal"
+    ],
+    "correct": 2,
+    "explanation": "La señal de STOP tiene forma octogonal (8 lados) y es la única con esa forma."
+  },
+  {
+    "id": 2,
+    "topic": "señales",
+    "topic_label": "Señales de tráfico",
+    "question": "¿De qué color es el fondo de las señales de prohibición?",
+    "options": [
+      "Azul",
+      "Blanco con borde rojo",
+      "Amarillo"
+    ],
+    "correct": 1,
+    "explanation": "Las señales de prohibición tienen fondo blanco con borde rojo."
+  },
+  {
+    "id": 3,
+    "topic": "señales",
+    "topic_label": "Señales de tráfico",
+    "question": "Una señal triangular con borde rojo indica…",
+    "options": [
+      "Prohibición",
+      "Peligro o advertencia",
+      "Obligación"
+    ],
+    "correct": 1,
+    "explanation": "Los triángulos con borde rojo son señales de peligro o advertencia."
+  },
+  {
+    "id": 4,
+    "topic": "señales",
+    "topic_label": "Señales de tráfico",
+    "question": "¿Qué color tienen las señales de información de autopista?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Blanco"
+    ],
+    "correct": 0,
+    "explanation": "Las señales informativas de autopistas y autovías tienen fondo verde."
+  },
+  {
+    "id": 5,
+    "topic": "señales",
+    "topic_label": "Señales de tráfico",
+    "question": "Una señal circular con fondo azul y símbolo blanco indica…",
+    "options": [
+      "Prohibición",
+      "Peligro",
+      "Obligación"
+    ],
+    "correct": 2,
+    "explanation": "Las señales de obligación son circulares con fondo azul y símbolo blanco."
+  },
+  {
+    "id": 6,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "En una intersección sin señalizar, ¿a quién se cede el paso?",
+    "options": [
+      "Al vehículo que viene por la izquierda",
+      "Al vehículo que viene por la derecha",
+      "Al vehículo más grande"
+    ],
+    "correct": 1,
+    "explanation": "En intersecciones sin señalizar se cede el paso al vehículo que viene por la derecha."
+  },
+  {
+    "id": 7,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿Cuál es la velocidad máxima en autopista para turismos?",
+    "options": [
+      "100 km/h",
+      "120 km/h",
+      "140 km/h"
+    ],
+    "correct": 1,
+    "explanation": "La velocidad máxima en autopista para turismos es 120 km/h."
+  },
+  {
+    "id": 8,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿Cuándo es obligatorio el uso de luces de carretera?",
+    "options": [
+      "Siempre de noche",
+      "En carretera de noche sin iluminación suficiente y sin tráfico contrario",
+      "Solo en túneles"
+    ],
+    "correct": 1,
+    "explanation": "Las luces de carretera (largas) se usan en carretera nocturna sin iluminación y sin tráfico en sentido contrario."
+  },
+  {
+    "id": 9,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿A qué distancia mínima hay que señalizar una avería en autopista?",
+    "options": [
+      "50 metros",
+      "100 metros",
+      "150 metros"
+    ],
+    "correct": 2,
+    "explanation": "En autopista los triángulos de emergencia deben colocarse a 150 metros del vehículo."
+  },
+  {
+    "id": 10,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿Qué tasa de alcoholemia máxima se permite a conductores noveles (menos de 2 años)?",
+    "options": [
+      "0,5 g/l en sangre",
+      "0,3 g/l en sangre",
+      "0,2 g/l en sangre"
+    ],
+    "correct": 1,
+    "explanation": "Los conductores con menos de 2 años de carnet tienen un límite de 0,3 g/l en sangre (0,15 mg/l en aire)."
+  },
+  {
+    "id": 11,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿Es obligatorio ceder el paso a los peatones en un paso de cebra?",
+    "options": [
+      "Solo si el semáforo está en verde para ellos",
+      "Siempre que estén cruzando o vayan a cruzar",
+      "Solo en zona urbana"
+    ],
+    "correct": 1,
+    "explanation": "Siempre hay que ceder el paso a peatones en pasos habilitados cuando estén cruzando o a punto de hacerlo."
+  },
+  {
+    "id": 12,
+    "topic": "normas",
+    "topic_label": "Normas de circulación",
+    "question": "¿Cuál es la velocidad máxima en vía urbana por defecto?",
+    "options": [
+      "30 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "correct": 1,
+    "explanation": "La velocidad máxima genérica en vía urbana es 50 km/h salvo señal que indique otra cosa."
+  },
+  {
+    "id": 13,
+    "topic": "vehiculo",
+    "topic_label": "El vehículo",
+    "question": "¿Cada cuánto tiempo se debe revisar la presión de los neumáticos?",
+    "options": [
+      "Cada 10.000 km",
+      "Al menos una vez al mes",
+      "Solo en la ITV"
+    ],
+    "correct": 1,
+    "explanation": "Se recomienda revisar la presión de los neumáticos al menos una vez al mes."
+  },
+  {
+    "id": 14,
+    "topic": "vehiculo",
+    "topic_label": "El vehículo",
+    "question": "¿Qué indica el testigo rojo de batería encendido mientras se conduce?",
+    "options": [
+      "La batería está cargada",
+      "Fallo en el sistema de carga eléctrica",
+      "Hay que cambiar el aceite"
+    ],
+    "correct": 1,
+    "explanation": "El testigo rojo de batería encendido indica un fallo en el alternador o el sistema de carga."
+  },
+  {
+    "id": 15,
+    "topic": "vehiculo",
+    "topic_label": "El vehículo",
+    "question": "¿Qué profundidad mínima de dibujo deben tener los neumáticos?",
+    "options": [
+      "1 mm",
+      "1,6 mm",
+      "3 mm"
+    ],
+    "correct": 1,
+    "explanation": "La normativa exige un mínimo de 1,6 mm de profundidad de dibujo en los neumáticos."
+  },
+  {
+    "id": 16,
+    "topic": "vehiculo",
+    "topic_label": "El vehículo",
+    "question": "¿Qué ocurre si se conduce con los neumáticos desinflados?",
+    "options": [
+      "Mejora la comodidad",
+      "Aumenta el consumo y el riesgo de accidente",
+      "No tiene ningún efecto"
+    ],
+    "correct": 1,
+    "explanation": "Los neumáticos desinflados aumentan la distancia de frenado, el consumo de combustible y el riesgo de reventón."
+  },
+  {
+    "id": 17,
+    "topic": "vehiculo",
+    "topic_label": "El vehículo",
+    "question": "¿Cuándo debe usarse el freno de mano (freno de estacionamiento)?",
+    "options": [
+      "Solo en pendientes muy pronunciadas",
+      "Siempre que el vehículo quede estacionado",
+      "Solo si el terreno es irregular"
+    ],
+    "correct": 1,
+    "explanation": "El freno de estacionamiento debe aplicarse siempre que el vehículo quede parado y sin conductor."
+  },
+  {
+    "id": 18,
+    "topic": "seguridad",
+    "topic_label": "Seguridad vial",
+    "question": "¿Cuál es la principal causa de accidentes de tráfico?",
+    "options": [
+      "El mal estado de las carreteras",
+      "El factor humano (distracciones, velocidad, alcohol...)",
+      "El mal tiempo"
+    ],
+    "correct": 1,
+    "explanation": "Más del 90% de los accidentes tienen al factor humano como causa principal."
+  },
+  {
+    "id": 19,
+    "topic": "seguridad",
+    "topic_label": "Seguridad vial",
+    "question": "¿Qué distancia de seguridad mínima se recomienda a 120 km/h?",
+    "options": [
+      "50 metros",
+      "100 metros",
+      "120 metros"
+    ],
+    "correct": 1,
+    "explanation": "A 120 km/h se recomienda mantener al menos 100 metros de distancia de seguridad."
+  },
+  {
+    "id": 20,
+    "topic": "seguridad",
+    "topic_label": "Seguridad vial",
+    "question": "¿Es obligatorio el uso del cinturón de seguridad en vías urbanas?",
+    "options": [
+      "No, solo en vías interurbanas",
+      "Sí, siempre que el vehículo esté en movimiento",
+      "Solo para el conductor"
+    ],
+    "correct": 1,
+    "explanation": "El cinturón es obligatorio para todos los ocupantes en cualquier tipo de vía."
+  },
+  {
+    "id": 21,
+    "topic": "seguridad",
+    "topic_label": "Seguridad vial",
+    "question": "¿A partir de qué velocidad el uso del casco es obligatorio en ciclomotor?",
+    "options": [
+      "Desde 0 km/h, siempre",
+      "A partir de 50 km/h",
+      "Solo en autopistas"
+    ],
+    "correct": 0,
+    "explanation": "El casco es obligatorio siempre en ciclomotores y motocicletas, independientemente de la velocidad."
+  },
+  {
+    "id": 22,
+    "topic": "seguridad",
+    "topic_label": "Seguridad vial",
+    "question": "¿Qué efecto tiene la fatiga en la conducción?",
+    "options": [
+      "Aumenta los reflejos",
+      "Reduce la atención y aumenta el tiempo de reacción",
+      "No tiene efecto si se conduce despacio"
+    ],
+    "correct": 1,
+    "explanation": "La fatiga deteriora la capacidad de atención, los reflejos y el tiempo de reacción del conductor."
+  },
+  {
+    "id": 23,
+    "topic": "preferencia",
+    "topic_label": "Prioridad y preferencia",
+    "question": "¿Quién tiene prioridad de paso en una rotonda?",
+    "options": [
+      "El que va a entrar en la rotonda",
+      "El que ya circula dentro de la rotonda",
+      "El vehículo más grande"
+    ],
+    "correct": 1,
+    "explanation": "Dentro de la rotonda tienen prioridad los vehículos que ya están circulando en ella."
+  },
+  {
+    "id": 24,
+    "topic": "preferencia",
+    "topic_label": "Prioridad y preferencia",
+    "question": "En un semáforo averiado, ¿quién dirige la circulación?",
+    "options": [
+      "El conductor más antiguo",
+      "Los agentes de la autoridad",
+      "El conductor que lleva más tiempo esperando"
+    ],
+    "correct": 1,
+    "explanation": "Cuando el semáforo está averiado, los agentes de la autoridad tienen prioridad absoluta para dirigir la circulación."
+  },
+  {
+    "id": 25,
+    "topic": "preferencia",
+    "topic_label": "Prioridad y preferencia",
+    "question": "¿Tienen prioridad los vehículos de emergencia con sirena y luces?",
+    "options": [
+      "Solo en autopistas",
+      "Sí, siempre y en cualquier vía",
+      "Solo si van a más de 100 km/h"
+    ],
+    "correct": 1,
+    "explanation": "Los vehículos de emergencia con señales acústicas y luminosas activadas tienen prioridad absoluta."
+  },
+  {
+    "id": 26,
+    "topic": "preferencia",
+    "topic_label": "Prioridad y preferencia",
+    "question": "¿Qué vehículo tiene prioridad al salir de una vía de servicio a una carretera?",
+    "options": [
+      "El que sale de la vía de servicio",
+      "El que circula por la carretera",
+      "El que lleva más velocidad"
+    ],
+    "correct": 1,
+    "explanation": "Siempre tiene prioridad el tráfico que circula por la vía principal sobre el que accede desde vías secundarias."
+  },
+  {
+    "id": 27,
+    "topic": "medioambiente",
+    "topic_label": "Medio ambiente y eficiencia",
+    "question": "¿Qué acción reduce más el consumo de combustible?",
+    "options": [
+      "Conducir a altas revoluciones",
+      "Anticipar las frenadas y mantener velocidad constante",
+      "Usar el aire acondicionado al máximo"
+    ],
+    "correct": 1,
+    "explanation": "La conducción eficiente (anticipación, velocidad constante, cambios de marcha adecuados) reduce significativamente el consumo."
+  },
+  {
+    "id": 28,
+    "topic": "medioambiente",
+    "topic_label": "Medio ambiente y eficiencia",
+    "question": "¿Qué etiqueta ambiental corresponde a los vehículos eléctricos puros?",
+    "options": [
+      "Etiqueta B",
+      "Etiqueta ECO",
+      "Etiqueta CERO"
+    ],
+    "correct": 2,
+    "explanation": "Los vehículos eléctricos puros (BEV) y de pila de combustible tienen la etiqueta CERO emisiones de la DGT."
+  },
+  {
+    "id": 29,
+    "topic": "medioambiente",
+    "topic_label": "Medio ambiente y eficiencia",
+    "question": "¿Qué gas es el principal responsable del efecto invernadero emitido por los vehículos?",
+    "options": [
+      "Oxígeno (O₂)",
+      "Dióxido de carbono (CO₂)",
+      "Nitrógeno (N₂)"
+    ],
+    "correct": 1,
+    "explanation": "El CO₂ es el principal gas de efecto invernadero producido por la combustión de carburantes."
+  },
+  {
+    "id": 30,
+    "topic": "medioambiente",
+    "topic_label": "Medio ambiente y eficiencia",
+    "question": "¿Qué velocidad es generalmente la más eficiente en consumo para un turismo en carretera?",
+    "options": [
+      "80-90 km/h",
+      "110-120 km/h",
+      "60-70 km/h"
+    ],
+    "correct": 0,
+    "explanation": "La mayoría de los turismos tienen su punto óptimo de eficiencia entre 80-90 km/h en carretera."
+  }
+]

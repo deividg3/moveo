@@ -1,0 +1,41 @@
+# public/.htaccess
+# SPA fallback: redirige todo a index.html salvo archivos/directorios reales
+# Necesario si cambias de Hash history a Web history en Vue Router
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ── URLs Limpias: eliminar .html / .php de la URL ──
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # No reescribir ficheros o directorios que existen físicamente
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Todo lo demás → index.html (Vue Router toma el control)
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Página de Error 404 personalizada
+ErrorDocument 404 /index.html
+
+# Cabeceras de seguridad recomendadas
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Caché agresiva para assets con hash (Vite los genera con hash en el nombre)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html                 "access plus 0 seconds"
+  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 year"
+  ExpiresByType image/png                 "access plus 1 year"
+  ExpiresByType image/svg+xml             "access plus 1 year"
+  ExpiresByType font/woff2                "access plus 1 year"
+</IfModule>

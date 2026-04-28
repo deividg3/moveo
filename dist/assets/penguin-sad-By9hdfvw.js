@@ -1,0 +1,1 @@
+var e=`/assets/penguin-sad-26El5QuE.png`;export{e as t};
